@@ -32,6 +32,7 @@ class SamtoolsAT01 < Formula
   end
 
   def install
+    system "make", "dylib"
     system "make"
     system "make", "-C", "bcftools" if build.with? "bcftools"
 
@@ -51,6 +52,7 @@ class SamtoolsAT01 < Formula
 
     bin.install Dir["misc/*.pl"]
     lib.install "libbam.a"
+    lib.install "libbam.1.dylib"
     man1.install "samtools.1"
     (share+"samtools").install "examples"
     (include+"bam").install Dir["*.h"]
