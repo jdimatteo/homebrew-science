@@ -7,16 +7,6 @@ class SamtoolsAT01 < Formula
   url "https://github.com/samtools/samtools/archive/0.1.20.tar.gz"
   sha256 "500019b4d1886ad995513d5ce8b413b14b51f16f251ce76bc0b35a446b182a47"
 
-  bottle do
-    cellar :any_skip_relocation
-    sha256 "94daeca01f8f12745a5e19eecd6fdf85e0202dd2dfdbfc999c9c57e591ab4f6b" => :sierra
-    sha256 "5fb71541a4b39224489f36de9926fd1e95ae172b7a17eff0e11287861012ee4f" => :el_capitan
-    sha256 "b9160636c1aca2857dca85da201ee92836792c7c2b9dae421b57331e359d8032" => :yosemite
-    sha256 "5e937da595debfc4c709824ec58887649da96d69879c1903fd55dca342f7a198" => :x86_64_linux
-  end
-
-  keg_only :versioned_formula
-
   option "with-dwgsim", "Build with 'Whole Genome Simulation'"
   option "without-bcftools", "Do not install BCFtools"
 
