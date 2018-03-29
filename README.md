@@ -1,8 +1,8 @@
 # jdimatteo/science
 
-This tap provided scientific formulae for both the Homebrew and Linuxbrew package managers.
+This tap provided scientific formulae for both the Homebrew package managers.
 
-This tap is only mainted to support [bamliquidator](https://github.com/BradnerLab/pipeline/wiki/bamliquidator#Mac_OS_X) installations.
+This tap is only mainted to support [bamliquidator](https://github.com/BradnerLab/pipeline/wiki/bamliquidator#Mac_OS_X) installations on macOS.
 
 # Hosting Your Own Tap
 
@@ -32,7 +32,7 @@ Use `brew gist-logs FORMULA` to create a [Gist](https://gist.github.com/) and po
 
 Search [open](https://github.com/jdimatteo/homebrew-science/issues?state=open) and [closed](https://github.com/jdimatteo/homebrew-science/issues?state=closed) issues. See also Homebrew's [Common Issues](https://docs.brew.sh/Common-Issues.html) and [FAQ](https://docs.brew.sh/FAQ.html).
 
-If the issue is related to installing bamliquidator, please feel free to contact me at jdimatteo@gmail.com .  Please also consider installing on Ubuntu instead, which is much easier.
+If the issue is related to installing bamliquidator, please feel free to contact me at jdimatteo@gmail.com .  Please also consider [installing bamliquidator on Ubuntu](https://github.com/BradnerLab/pipeline/wiki/bamliquidator#Install) instead, which is much easier.
 
 ## Documentation
 
